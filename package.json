@@ -26,8 +26,6 @@
 
   "scripts": {
     "test:web": "wdio run ./wdio.conf.ts",
-    "test:android": "npx wdio test/src/_config/mobile.conf.ts",
-    "test:ios": "",
     "test:all": "wdio run ./wdio.conf.ts && npx wdio test/src/_config/mobile.conf.ts",
     "lint": "tslint './test/src/specs/**/*.ts'"
 
