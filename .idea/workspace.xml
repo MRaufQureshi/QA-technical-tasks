@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38d07364-b8b5-4997-8bbd-606f89fa953f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wdio.conf.ts" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "QA001-Initial-Commit",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/el0098/Documents/QA-technical-tasks/test/objects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,7 +64,7 @@
       <updated>1690628771238</updated>
       <workItem from="1690628772544" duration="5436000" />
       <workItem from="1690634944011" duration="9705000" />
-      <workItem from="1690645697826" duration="6222000" />
+      <workItem from="1690645697826" duration="6630000" />
     </task>
     <servers />
   </component>

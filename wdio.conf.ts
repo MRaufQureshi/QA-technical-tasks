@@ -1,8 +1,5 @@
 import type { Options } from '@wdio/types'
 import {browser as browserConfig} from "./test/src/_config/config";
-import commands from "./test/src/utils/customCommands";
-
-
 
 export const config: Options.Testrunner = {
     //
@@ -320,7 +317,7 @@ export const config: Options.Testrunner = {
     // onReload: function(oldSessionId, newSessionId) {
     // }
     before: () => {
-        commands();
+
     },
     afterTest: async function (test, context, { error, result, duration, passed, retries }) {
         if (!passed) {
