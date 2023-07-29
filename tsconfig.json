@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/jasmine-framework",
+            "@wdio/appium-service",
+            "webdriverio/async"
+        ],
+        "target": "es2019"
+    }
+}
