@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="38d07364-b8b5-4997-8bbd-606f89fa953f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wdio.conf.ts" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/_config/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/specs/dummy_web_ui.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/specs/dummy_web_ui.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +36,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/el0098/Documents/QA-technical-tasks/test/objects",
+    "git-widget-placeholder": "Docker-Init",
+    "last_opened_file_path": "/Users/el0098/Documents/QA-technical-tasks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,10 +49,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test/objects" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test/objects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/src/config" />
+      <recent name="$PROJECT_DIR$/test/src/_config" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -65,6 +69,10 @@
       <workItem from="1690628772544" duration="5436000" />
       <workItem from="1690634944011" duration="9705000" />
       <workItem from="1690645697826" duration="6630000" />
+      <workItem from="1690726755452" duration="3039000" />
+      <workItem from="1690731847589" duration="2040000" />
+      <workItem from="1690733908249" duration="6048000" />
+      <workItem from="1690740008904" duration="2076000" />
     </task>
     <servers />
   </component>

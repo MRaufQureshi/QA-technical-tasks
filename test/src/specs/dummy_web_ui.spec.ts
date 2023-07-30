@@ -65,7 +65,4 @@ describe('E2E tests cases (Weather Shopper)', () => {
             console.log('Current temperature is below 34; Moisturizers test case will be executed');
         }
     });
-
 });
-
-
