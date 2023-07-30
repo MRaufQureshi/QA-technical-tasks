@@ -2,7 +2,7 @@
 
 🤌 Hi there,
 
-Skeleton and body implementation of basic user journey using WebdriverIO + Jasmine + TypeScript + TSLINT + Spec Reporting.
+Skeleton and body implementation of basic user journey using WebdriverIO + Jasmine + Docker + TypeScript + TSLINT + Spec Reporting.
 
 Extra implementation but not used Axios + Appium (android) 
 
@@ -49,4 +49,6 @@ For detailed documentation of WebdriverIO and its related API references is [her
 For detailed documentation of [Jasmine](https://jasmine.github.io/).
 ### Axios for promise based HTTP client for the browser and node.js
 For detailed documentation of [Axios](https://www.npmjs.com/package/axios)
+
+# Note: Docker image is not able to fetch spec files due to misconfiguration
 
