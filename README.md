@@ -50,5 +50,5 @@ For detailed documentation of [Jasmine](https://jasmine.github.io/).
 ### Axios for promise based HTTP client for the browser and node.js
 For detailed documentation of [Axios](https://www.npmjs.com/package/axios)
 
-# Note: Docker image is not able to fetch spec files due to misconfiguration
+### Note: Docker image is not able to fetch spec files due to misconfiguration
 
