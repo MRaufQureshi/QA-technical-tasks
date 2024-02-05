@@ -1,4 +1,4 @@
-Docker related question : https://www.youtube.com/watch?v=pTFZFxd4hOI
+Docker related question
 
 It works on my machine but does not work on prod
 - Some file missing
@@ -47,4 +47,10 @@ docker image ls (ls will list all images in the docker)
 now we can write docker run hello-docker and this will return 
 hello docker from the js file we created above.
 
-https://www.youtube.com/watch?v=pTFZFxd4hOI
+mkdir - to create directory
+mv - to move file
+touch - to create files
+rm - remove files -r to directory
+cat - to view content of the file
+more - to view content but only in one direction
+less - to view content in both direction
