@@ -1,0 +1,50 @@
+Docker related question : https://www.youtube.com/watch?v=pTFZFxd4hOI
+
+It works on my machine but does not work on prod
+- Some file missing
+- Different software version like node version
+- Different configuration
+
+With Docker you can add package.
+
+Docker allows different application versions to run side by side
+and remove it once done (docker-compose down --rmi all)
+
+It helps in build run and ship application 
+Container is insolated env. to run the app
+Virtual machine is relica of physical machine - VM requirs OS and slow and need memory
+
+Containers are lightweight and share OS from the OS they are running on - they no need to physical hardware resource
+
+Uses client . server architecture (client talks to server with REST API)
+
+install docker - go to page
+
+run docker version 
+
+Create docker file that can create image
+which includes:
+OS, runtime env. Application files, libraries, env. variables etc.
+
+Then we tell container to process the image (to run it)
+
+Dockerfile (this is where we start)
+
+FROM node:alpine *FROM where do you want to start*
+COPY . /app *what do you want to copy into the image give file path*
+WORKDIR /app *tell the image which directory you want to execute the file from*
+CMD node app.js *run this file*
+
+Now we tell docker to package our application by
+docker build  -t hello-docker .
+where -t stands for tag name 
+where . stands for the directory you want it to be build in (where you terminal dir is currently)
+Press enter
+
+This will create an image, so see this image, write
+docker image ls (ls will list all images in the docker)
+
+now we can write docker run hello-docker and this will return 
+hello docker from the js file we created above.
+
+https://www.youtube.com/watch?v=pTFZFxd4hOI
